@@ -65,4 +65,4 @@ def update(sno):
      return render_template('update.html',todo=todo)
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=5000)
